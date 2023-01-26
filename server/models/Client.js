@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const ClinetSchema = new mongoose.Schema({
+const ClientSchema = new mongoose.Schema({
   name: {
     type: String,
   },
@@ -12,4 +12,4 @@ const ClinetSchema = new mongoose.Schema({
   },
 })
 
-module.exports = mongoose.model('Client', ClinetSchema)
+module.exports = mongoose.model('Client', ClientSchema)
